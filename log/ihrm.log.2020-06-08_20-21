@@ -1,0 +1,10 @@
+2020-06-08 20:20:10,609 INFO [root] [__init__.py(<module>:8)] - Test日志会不会打印！！！
+2020-06-08 20:20:45,686 INFO [root] [__init__.py(<module>:8)] - Test日志会不会打印！！！
+2020-06-08 20:21:33,424 INFO [root] [__init__.py(<module>:8)] - Test日志会不会打印！！！
+2020-06-08 20:21:33,778 INFO [root] [test_emp_params.py(test01_login_success:26)] - 登录结果为:{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '77b50efb-f76a-4da3-a0b7-6865b273698c'}
+2020-06-08 20:21:33,779 INFO [root] [test_emp_params.py(test01_login_success:31)] - 保存到全局变量中的请求头为:{'Content-Type': 'application/json', 'Authorization': 'Bearer 77b50efb-f76a-4da3-a0b7-6865b273698c'}
+2020-06-08 20:21:33,879 INFO [root] [test_emp_params.py(test02_add_emp_success:40)] - 添加员工得结果为:{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1269967901012525056'}}
+2020-06-08 20:21:33,879 INFO [root] [test_emp_params.py(test02_add_emp_success:42)] - 保存到全局变量的员工ID为:1269967901012525056
+2020-06-08 20:21:33,974 INFO [root] [test_emp_params.py(test03_query_emp_success:48)] - 查询员工得信息为:{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1269967901012525056', 'mobile': '19645871235', 'username': '老实人', 'password': '4b20a26b8b2bfc2df098e599f5b54247', 'enableState': 1, 'createTime': None, 'companyId': '1', 'companyName': '传智播客', 'departmentId': '1063678149528784896', 'timeOfEntry': '2020-05-05T00:00:00.000+0000', 'formOfEmployment': 1, 'workNumber': None, 'formOfManagement': None, 'workingCity': None, 'correctionTime': '2020-05-30T16:00:00.000+0000', 'inServiceStatus': None, 'departmentName': '测试部', 'roleIds': [], 'staffPhoto': None}}
+2020-06-08 20:21:34,068 INFO [root] [test_emp_params.py(test04_modify_emp_success:55)] - 修改员工得信息为:{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1269967901012525056'}}
+2020-06-08 20:21:34,196 INFO [root] [test_emp_params.py(test05_delete_emp_success:61)] - 删除员工得信息为:{'success': True, 'code': 10000, 'message': '操作成功！', 'data': None}
